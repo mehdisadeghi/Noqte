@@ -1,0 +1,22 @@
+FONTLOG for Noqte
+=================
+
+Noqte: A fun, minimalistic Persian pixel font - WIP.
+
+Basic Font Information
+----------------------
+
+I made this font in a week from scratch in order to use it in my game. The em-height is 1024 points. Each glyph is made of 64x64 points squares. There are some exceptions, sadly, mainly for designing diacritics. Those might be removed in a final version, however. For those at moment another square size is used which is 75% smaller, i.e. 32x32 points.
+
+ChangeLog
+---------
+
+Acknowledgements
+----------------
+
+If you make modifications be sure to add your name (N), email (E), web-address (if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Mehdi Sadeghi
+E: mehdi@mehdix.org
+W: https://mehdix.ir
+D: Original font designer
