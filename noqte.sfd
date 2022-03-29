@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1581968550
-ModificationTime: 1648545665
+ModificationTime: 1648551408
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -725,8 +725,9 @@ MUL
 SWAP
 ENDF
 EndTTInstrs
-ShortTable: cvt  1
+ShortTable: cvt  2
   0
+  64
 EndShort
 LangName: 1033 "" "" "Regular" "FontForge 2.0 : Noqte : 16-3-2022" "" "Version 001.000"
 GaspTable: 1 65535 0 0
@@ -738,7 +739,7 @@ DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 154
-WinInfo: 208 13 11
+WinInfo: 143 13 11
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -866,7 +867,7 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 210 -1 N 1 0 0 1 -96 0 2
+Refer: 210 -1 S 1 0 0 1 -96 0 2
 Refer: 210 -1 S 1 0 0 1 -160 0 2
 EndChar
 
@@ -879,7 +880,7 @@ UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 210 -1 N 1 0 0 1 96 256 2
+Refer: 210 -1 S 1 0 0 1 96 256 2
 Refer: 210 -1 N 1 0 0 1 32 192 2
 Refer: 210 -1 N 1 0 0 1 96 192 2
 EndChar
@@ -982,19 +983,21 @@ EndChar
 
 StartChar: uni0622
 Encoding: 101 1570 9
-Width: 192
+Width: 128
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 213 -1 N 1 0 0 1 -160 320 2
-Refer: 213 -1 N 1 0 0 1 0 384 2
-Refer: 213 -1 N 1 0 0 1 -32 352 2
-Refer: 213 -1 N 1 0 0 1 -64 352 2
-Refer: 213 -1 N 1 0 0 1 -96 352 2
-Refer: 213 -1 N 1 0 0 1 -128 352 2
-Refer: 212 -1 N 1 0 0 1 64 0 2
+Refer: 210 -1 N 1 0 0 1 -160 256 2
+Refer: 210 -1 N 1 0 0 1 -96 448 2
+Refer: 210 -1 N 1 0 0 1 -160 384 2
+Refer: 210 -1 N 1 0 0 1 -160 0 2
+Refer: 210 -1 N 1 0 0 1 -160 64 2
+Refer: 210 -1 N 1 0 0 1 -160 128 2
+Refer: 210 -1 N 1 0 0 1 -160 192 2
+Refer: 210 -1 N 1 0 0 1 -224 384 2
 EndChar
 
 StartChar: uni0623
@@ -1006,7 +1009,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 8 1569 N 1 0 0 1 -32 416 2
-Refer: 12 1575 N 1 0 0 1 64 0 2
+Refer: 12 1575 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0624
@@ -1023,13 +1026,13 @@ EndChar
 
 StartChar: uni0627
 Encoding: 106 1575 12
-Width: 64
+Width: 128
 VWidth: 512
 GlyphClass: 1
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 212 -1 N 1 0 0 1 -64 0 2
+Refer: 212 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0628
@@ -1085,6 +1088,7 @@ Encoding: 112 1581 17
 Width: 320
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -1143,12 +1147,13 @@ Encoding: 116 1585 21
 Width: 192
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 210 -1 S 1 0 0 1 -96 64 2
+Refer: 210 -1 N 1 0 0 1 -96 64 2
 Refer: 210 -1 N 1 0 0 1 -160 -128 2
-Refer: 210 -1 N 1 0 0 1 -96 -64 2
+Refer: 210 -1 S 1 0 0 1 -96 -64 2
 Refer: 210 -1 N 1 0 0 1 -96 0 2
 EndChar
 
@@ -1222,21 +1227,23 @@ Encoding: 122 1591 27
 Width: 384
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
+Refer: 210 -1 N 1 0 0 1 -160 0 2
+Refer: 210 -1 N 1 0 0 1 96 128 2
+Refer: 210 -1 N 1 0 0 1 -32 64 2
 Refer: 210 -1 N 1 0 0 1 32 128 2
-Refer: 210 -1 N 1 0 0 1 -96 64 2
-Refer: 210 -1 N 1 0 0 1 -32 128 2
-Refer: 210 -1 N 1 0 0 1 32 64 2
+Refer: 210 -1 N 1 0 0 1 96 64 2
+Refer: 210 -1 N 1 0 0 1 32 0 2
 Refer: 210 -1 N 1 0 0 1 -32 0 2
-Refer: 210 -1 N 1 0 0 1 -96 0 2
-Refer: 212 -1 N 1 0 0 1 0 0 2
+Refer: 212 -1 N 1 0 0 1 64 0 2
 EndChar
 
 StartChar: uni0638
 Encoding: 123 1592 28
-Width: 320
+Width: 384
 VWidth: 512
 GlyphClass: 1
 Flags: MW
@@ -1251,6 +1258,7 @@ Encoding: 124 1593 29
 Width: 320
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -1301,11 +1309,8 @@ GlyphClass: 1
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 210 -1 N 1 0 0 1 -160 64 2
-Refer: 210 -1 N 1 0 0 1 -160 0 2
-Refer: 210 -1 N 1 0 0 1 -96 0 2
-Refer: 210 -1 N 1 0 0 1 -32 0 2
-Refer: 182 65235 S 1 0 0 1 192 0 2
+Refer: 55 1697 N 1 0 0 1 0 0 2
+Refer: 210 -1 S 1 0 0 1 160 256 2
 EndChar
 
 StartChar: uni0642
@@ -1316,15 +1321,8 @@ GlyphClass: 1
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 0 -1 S 1 0 0 1 192 256 2
-Refer: 210 -1 N 1 0 0 1 32 128 2
-Refer: 210 -1 N 1 0 0 1 -32 64 2
-Refer: 210 -1 N 1 0 0 1 96 64 2
-Refer: 210 -1 N 1 0 0 1 32 0 2
-Refer: 210 -1 N 1 0 0 1 -32 0 2
-Refer: 210 -1 N 1 0 0 1 96 0 2
-Refer: 210 -1 N 1 0 0 1 96 128 2
-Refer: 214 -1 N 1 0 0 1 0 -64 2
+Refer: 51 1647 S 1 0 0 1 0 0 2
+Refer: 0 -1 N 1 0 0 1 192 256 2
 EndChar
 
 StartChar: uni0643
@@ -1344,6 +1342,7 @@ Encoding: 130 1604 35
 Width: 384
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -1370,6 +1369,7 @@ Encoding: 132 1606 37
 Width: 384
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -1619,6 +1619,7 @@ Encoding: 163 1647 51
 Width: 384
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -1673,6 +1674,7 @@ Encoding: 167 1697 55
 Width: 512
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -1680,7 +1682,7 @@ Refer: 210 -1 N 1 0 0 1 -160 64 2
 Refer: 210 -1 N 1 0 0 1 -160 0 2
 Refer: 210 -1 N 1 0 0 1 -96 0 2
 Refer: 210 -1 N 1 0 0 1 -32 0 2
-Refer: 230 -1 N 1 0 0 1 192 0 2
+Refer: 230 -1 S 1 0 0 1 192 0 2
 EndChar
 
 StartChar: uni06A9
@@ -1688,6 +1690,7 @@ Encoding: 168 1705 56
 Width: 384
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -1953,7 +1956,8 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 72 64342 S 1 0 0 1 0 0 2
+Refer: 210 -1 S 1 0 0 1 288 0 2
+Refer: 72 64342 N 1 0 0 1 0 0 2
 Refer: 210 -1 N 1 0 0 1 224 0 2
 EndChar
 
@@ -1962,6 +1966,7 @@ Encoding: 186 64344 74
 Width: 256
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -1977,6 +1982,7 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 32 0 2
 Refer: 210 -1 N 1 0 0 1 -32 0 2
 Refer: 74 64344 N 1 0 0 1 0 0 2
 EndChar
@@ -2045,6 +2051,7 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 -32 0 2
 Refer: 54 1688 N 1 0 0 1 0 0 2
 EndChar
 
@@ -2069,8 +2076,9 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 210 -1 S 1 0 0 1 96 0 2
-Refer: 82 64398 N 1 0 0 1 0 0 2
+Refer: 210 -1 N 1 0 0 1 160 0 2
+Refer: 210 -1 N 1 0 0 1 96 0 2
+Refer: 82 64398 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFB90
@@ -2078,6 +2086,7 @@ Encoding: 196 64400 84
 Width: 256
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 InSpiro: 1
 Flags: W
 LayerCount: 2
@@ -2099,7 +2108,8 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 210 -1 S 1 0 0 1 -32 0 2
+Refer: 210 -1 S 1 0 0 1 32 0 2
+Refer: 210 -1 N 1 0 0 1 -32 0 2
 Refer: 84 64400 N 1 0 0 1 0 0 2
 EndChar
 
@@ -2111,7 +2121,7 @@ GlyphClass: 1
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 210 -1 S 1 0 0 1 -160 64 2
+Refer: 210 -1 N 1 0 0 1 -160 64 2
 Refer: 210 -1 N 1 0 0 1 -96 0 2
 Refer: 88 64404 N 1 0 0 1 128 0 2
 EndChar
@@ -2124,6 +2134,7 @@ GlyphClass: 1
 Flags: MW
 LayerCount: 2
 Fore
+Refer: 210 -1 N 1 0 0 1 160 0 2
 Refer: 210 -1 N 1 0 0 1 96 0 2
 Refer: 86 64402 S 1 0 0 1 0 0 2
 EndChar
@@ -2136,18 +2147,13 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
+Refer: 0 -1 S 1 0 0 1 64 320 2
 Refer: 210 -1 S 1 0 0 1 -96 192 2
-Refer: 210 -1 N 1 0 0 1 -32 192 2
-Refer: 210 -1 N 1 0 0 1 -96 128 2
-Refer: 210 -1 N 1 0 0 1 -32 64 2
-Refer: 210 -1 N 1 0 0 1 -32 320 2
-Refer: 210 -1 N 1 0 0 1 -160 0 2
-Refer: 210 -1 N 1 0 0 1 -96 320 2
-Refer: 210 -1 N 1 0 0 1 -96 0 2
-Refer: 213 -1 N 1 0 0 1 -96 352 2
-Refer: 213 -1 N 1 0 0 1 -64 352 2
-Refer: 213 -1 N 1 0 0 1 -32 352 2
-Refer: 213 -1 N 1 0 0 1 0 352 2
+Refer: 210 -1 S 1 0 0 1 -32 192 2
+Refer: 210 -1 S 1 0 0 1 -96 128 2
+Refer: 210 -1 S 1 0 0 1 -32 64 2
+Refer: 210 -1 S 1 0 0 1 -160 0 2
+Refer: 210 -1 S 1 0 0 1 -96 0 2
 EndChar
 
 StartChar: uniFB95
@@ -2158,7 +2164,8 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 210 -1 S 1 0 0 1 -32 0 2
+Refer: 210 -1 S 1 0 0 1 32 0 2
+Refer: 210 -1 N 1 0 0 1 -32 0 2
 Refer: 88 64404 N 1 0 0 1 0 0 2
 EndChar
 
@@ -2189,6 +2196,7 @@ Encoding: 204 64510 92
 Width: 256
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -2204,8 +2212,9 @@ GlyphClass: 1
 Flags: MW
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 32 0 2
 Refer: 210 -1 N 1 0 0 1 -32 0 2
-Refer: 92 64510 S 1 0 0 1 0 0 2
+Refer: 92 64510 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFD3E
@@ -2394,13 +2403,13 @@ EndChar
 
 StartChar: uniFE81
 Encoding: 225 65153 108
-Width: 192
+Width: 128
 VWidth: 512
 GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 9 1570 S 1 0 0 1 0 0 2
+Refer: 9 1570 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFE86
@@ -2450,12 +2459,13 @@ EndChar
 
 StartChar: uniFE8C
 Encoding: 235 65164 113
-Width: 256
+Width: 192
 VWidth: 512
 GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 32 0 2
 Refer: 210 -1 N 1 0 0 1 -32 0 2
 Refer: 112 65163 N 1 0 0 1 0 0 2
 EndChar
@@ -2468,7 +2478,7 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 12 1575 N 1 0 0 1 64 0 2
+Refer: 12 1575 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFE8E
@@ -2480,7 +2490,8 @@ UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 212 -1 S 1 0 0 1 0 0 2
+Refer: 210 -1 S 1 0 0 1 -96 0 2
+Refer: 212 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFE8F
@@ -2502,6 +2513,7 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 288 0 2
 Refer: 210 -1 N 1 0 0 1 224 0 2
 Refer: 116 65167 N 1 0 0 1 0 0 2
 EndChar
@@ -2526,6 +2538,7 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 32 0 2
 Refer: 210 -1 N 1 0 0 1 -32 0 2
 Refer: 118 65169 N 1 0 0 1 0 0 2
 EndChar
@@ -2549,6 +2562,7 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 288 0 2
 Refer: 210 -1 N 1 0 0 1 224 0 2
 Refer: 120 65173 N 1 0 0 1 0 0 2
 EndChar
@@ -2573,6 +2587,7 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 32 0 2
 Refer: 210 -1 N 1 0 0 1 -32 0 2
 Refer: 122 65175 N 1 0 0 1 0 0 2
 EndChar
@@ -2596,6 +2611,7 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 288 0 2
 Refer: 210 -1 N 1 0 0 1 224 0 2
 Refer: 124 65177 N 1 0 0 1 0 0 2
 EndChar
@@ -2620,6 +2636,7 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 32 0 2
 Refer: 210 -1 N 1 0 0 1 -32 0 2
 Refer: 126 65179 N 1 0 0 1 0 0 2
 EndChar
@@ -2769,6 +2786,7 @@ Encoding: 264 65193 140
 Width: 192
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -2782,6 +2800,7 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 -32 0 2
 Refer: 140 65193 N 1 0 0 1 0 0 2
 EndChar
 
@@ -2804,7 +2823,8 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 142 65195 S 1 0 0 1 0 0 2
+Refer: 210 -1 S 1 0 0 1 -32 0 2
+Refer: 142 65195 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEAD
@@ -2826,6 +2846,7 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 -32 0 2
 Refer: 144 65197 N 1 0 0 1 0 0 2
 EndChar
 
@@ -2871,6 +2892,7 @@ GlyphClass: 1
 Flags: MW
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 416 0 2
 Refer: 210 -1 N 1 0 0 1 352 0 2
 Refer: 148 65201 N 1 0 0 1 0 0 2
 EndChar
@@ -2903,7 +2925,8 @@ UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 210 -1 S 1 0 0 1 160 0 2
+Refer: 210 -1 S 1 0 0 1 224 0 2
+Refer: 210 -1 N 1 0 0 1 160 0 2
 Refer: 150 65203 N 1 0 0 1 0 0 2
 EndChar
 
@@ -2912,6 +2935,7 @@ Encoding: 276 65205 152
 Width: 640
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -2926,6 +2950,7 @@ GlyphClass: 1
 Flags: MW
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 416 0 2
 Refer: 210 -1 N 1 0 0 1 352 0 2
 Refer: 152 65205 N 1 0 0 1 0 0 2
 EndChar
@@ -2948,6 +2973,7 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 224 0 2
 Refer: 210 -1 N 1 0 0 1 160 0 2
 Refer: 154 65207 N 1 0 0 1 0 0 2
 EndChar
@@ -2957,6 +2983,7 @@ Encoding: 280 65209 156
 Width: 640
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -2972,8 +2999,8 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 210 -1 N 1 0 0 1 352 0 2
-Refer: 210 -1 N 1 0 0 1 288 0 2
-Refer: 156 65209 S 1 0 0 1 0 0 2
+Refer: 210 -1 N 1 0 0 1 416 0 2
+Refer: 156 65209 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEBB
@@ -2981,6 +3008,7 @@ Encoding: 282 65211 158
 Width: 448
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -2996,6 +3024,7 @@ GlyphClass: 1
 Flags: MW
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 224 0 2
 Refer: 210 -1 N 1 0 0 1 160 0 2
 Refer: 158 65211 N 1 0 0 1 0 0 2
 EndChar
@@ -3020,7 +3049,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 210 -1 N 1 0 0 1 352 0 2
-Refer: 210 -1 N 1 0 0 1 288 0 2
+Refer: 210 -1 S 1 0 0 1 416 0 2
 Refer: 160 65213 N 1 0 0 1 0 0 2
 EndChar
 
@@ -3045,16 +3074,16 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 210 -1 N 1 0 0 1 160 0 2
-Refer: 210 -1 N 1 0 0 1 96 0 2
-Refer: 210 -1 N 1 0 0 1 32 0 2
+Refer: 210 -1 N 1 0 0 1 224 0 2
 Refer: 162 65215 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEC1
 Encoding: 288 65217 164
-Width: 320
+Width: 384
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -3063,19 +3092,20 @@ EndChar
 
 StartChar: uniFEC2
 Encoding: 289 65218 165
-Width: 256
+Width: 320
 VWidth: 512
 GlyphClass: 1
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 210 -1 N 1 0 0 1 32 0 2
+Refer: 210 -1 S 1 0 0 1 160 0 2
+Refer: 210 -1 N 1 0 0 1 96 0 2
 Refer: 164 65217 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEC3
 Encoding: 290 65219 166
-Width: 320
+Width: 384
 VWidth: 512
 GlyphClass: 1
 Flags: MW
@@ -3086,7 +3116,7 @@ EndChar
 
 StartChar: uniFEC4
 Encoding: 291 65220 167
-Width: 256
+Width: 320
 VWidth: 512
 GlyphClass: 1
 Flags: MW
@@ -3097,7 +3127,7 @@ EndChar
 
 StartChar: uniFEC5
 Encoding: 292 65221 168
-Width: 320
+Width: 384
 VWidth: 512
 GlyphClass: 1
 Flags: MW
@@ -3108,19 +3138,20 @@ EndChar
 
 StartChar: uniFEC6
 Encoding: 293 65222 169
-Width: 256
+Width: 320
 VWidth: 512
 GlyphClass: 1
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 210 -1 N 1 0 0 1 32 0 2
+Refer: 210 -1 S 1 0 0 1 160 0 2
+Refer: 210 -1 N 1 0 0 1 96 0 2
 Refer: 168 65221 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEC7
 Encoding: 294 65223 170
-Width: 320
+Width: 384
 VWidth: 512
 GlyphClass: 1
 Flags: MW
@@ -3131,13 +3162,13 @@ EndChar
 
 StartChar: uniFEC8
 Encoding: 295 65224 171
-Width: 256
+Width: 320
 VWidth: 512
 GlyphClass: 1
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 169 65222 S 1 0 0 1 0 0 2
+Refer: 169 65222 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEC9
@@ -3159,9 +3190,10 @@ GlyphClass: 1
 Flags: MW
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 96 0 2
 Refer: 210 -1 N 1 0 0 1 32 -192 2
 Refer: 232 -1 N 1 0 0 1 0 0 2
-Refer: 233 -1 S 1 0 0 1 64 0 2
+Refer: 233 -1 N 1 0 0 1 64 0 2
 EndChar
 
 StartChar: uniFECB
@@ -3185,9 +3217,11 @@ Encoding: 299 65228 175
 Width: 256
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 96 0 2
 Refer: 233 -1 N 1 0 0 1 64 0 2
 Refer: 210 -1 N 1 0 0 1 -160 0 2
 EndChar
@@ -3197,6 +3231,7 @@ Encoding: 300 65229 176
 Width: 320
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -3208,6 +3243,7 @@ Encoding: 301 65230 177
 Width: 256
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -3232,6 +3268,7 @@ Encoding: 303 65232 179
 Width: 256
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -3258,6 +3295,7 @@ GlyphClass: 1
 Flags: MW
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 288 0 2
 Refer: 210 -1 N 1 0 0 1 224 0 2
 Refer: 180 65233 N 1 0 0 1 0 0 2
 EndChar
@@ -3270,8 +3308,8 @@ GlyphClass: 1
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 230 -1 S 1 0 0 1 0 0 2
-Refer: 210 -1 N 1 0 0 1 -32 256 2
+Refer: 230 -1 N 1 0 0 1 0 0 2
+Refer: 210 -1 S 1 0 0 1 -32 256 2
 EndChar
 
 StartChar: uniFED4
@@ -3282,6 +3320,7 @@ GlyphClass: 1
 Flags: MW
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 96 0 2
 Refer: 210 -1 N 1 0 0 1 32 0 2
 Refer: 182 65235 N 1 0 0 1 0 0 2
 EndChar
@@ -3305,6 +3344,7 @@ GlyphClass: 1
 Flags: MW
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 160 0 2
 Refer: 184 65237 N 1 0 0 1 0 0 2
 EndChar
 
@@ -3316,8 +3356,8 @@ GlyphClass: 1
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 0 -1 S 1 0 0 1 128 256 2
-Refer: 230 -1 N 1 0 0 1 0 0 2
+Refer: 0 -1 N 1 0 0 1 128 256 2
+Refer: 230 -1 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFED8
@@ -3328,6 +3368,7 @@ GlyphClass: 1
 Flags: MW
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 96 0 2
 Refer: 210 -1 N 1 0 0 1 32 0 2
 Refer: 186 65239 N 1 0 0 1 0 0 2
 EndChar
@@ -3351,6 +3392,7 @@ GlyphClass: 1
 Flags: MW
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 160 0 2
 Refer: 210 -1 N 1 0 0 1 96 0 2
 Refer: 34 1603 N 1 0 0 1 0 0 2
 EndChar
@@ -3385,6 +3427,7 @@ GlyphClass: 1
 Flags: MW
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 160 0 2
 Refer: 191 65245 N 1 0 0 1 0 0 2
 EndChar
 
@@ -3394,7 +3437,7 @@ Width: 192
 VWidth: 512
 GlyphClass: 1
 UnlinkRmOvrlpSave: 1
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
 Refer: 210 -1 S 1 0 0 1 -96 256 2
@@ -3412,6 +3455,7 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 -32 0 2
 Refer: 210 -1 N 1 0 0 1 -96 0 2
 Refer: 193 65247 N 1 0 0 1 0 0 2
 EndChar
@@ -3421,6 +3465,7 @@ Encoding: 320 65249 195
 Width: 320
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -3435,7 +3480,8 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 210 -1 S 1 0 0 1 32 0 2
+Refer: 210 -1 S 1 0 0 1 96 0 2
+Refer: 210 -1 N 1 0 0 1 32 0 2
 Refer: 195 65249 N 1 0 0 1 0 0 2
 EndChar
 
@@ -3465,9 +3511,11 @@ Encoding: 323 65252 198
 Width: 256
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
+Refer: 210 -1 N 1 0 0 1 96 0 2
 Refer: 210 -1 N 1 0 0 1 32 0 2
 Refer: 197 65251 N 1 0 0 1 0 0 2
 EndChar
@@ -3492,6 +3540,7 @@ UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 160 0 2
 Refer: 199 65253 N 1 0 0 1 0 0 2
 EndChar
 
@@ -3516,6 +3565,7 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 32 0 2
 Refer: 210 -1 N 1 0 0 1 -32 0 2
 Refer: 201 65255 N 1 0 0 1 0 0 2
 EndChar
@@ -3542,7 +3592,8 @@ SplineSet
 256 0 m 1
  192 0 l 1025
 EndSplineSet
-Refer: 210 -1 S 1 0 0 1 -160 64 2
+Refer: 210 -1 S 1 0 0 1 32 0 2
+Refer: 210 -1 N 1 0 0 1 -160 64 2
 Refer: 210 -1 N 1 0 0 1 -32 192 2
 Refer: 210 -1 N 1 0 0 1 -32 0 2
 Refer: 210 -1 N 1 0 0 1 -32 64 2
@@ -3579,6 +3630,7 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 96 0 2
 Refer: 210 -1 N 1 0 0 1 32 0 2
 Refer: 210 -1 N 1 0 0 1 -32 -128 2
 Refer: 210 -1 N 1 0 0 1 -96 0 2
@@ -3596,6 +3648,7 @@ Encoding: 332 65261 207
 Width: 256
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -3610,6 +3663,7 @@ GlyphClass: 1
 Flags: MW
 LayerCount: 2
 Fore
+Refer: 210 -1 S 1 0 0 1 32 0 2
 Refer: 207 65261 N 1 0 0 1 0 0 2
 EndChar
 
@@ -3704,6 +3758,7 @@ Encoding: 0 -1 214
 Width: 256
 VWidth: 512
 GlyphClass: 1
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -3872,12 +3927,13 @@ EndChar
 
 StartChar: uniFE82
 Encoding: 226 65154 228
-Width: 128
+Width: 64
 VWidth: 512
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 108 65153 N 1 0 0 1 0 0 2
+Refer: 210 -1 S 1 0 0 1 -96 0 2
+Refer: 9 1570 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFE87
@@ -3888,13 +3944,14 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 8 1569 N 1 0 0 1 0 -96 2
-Refer: 12 1575 N 1 0 0 1 64 0 2
+Refer: 12 1575 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.264
 Encoding: 352 -1 230
 Width: 320
 VWidth: 512
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -3979,7 +4036,8 @@ VWidth: 512
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 -1 S 1 0 0 1 64 320 2
+Refer: 210 -1 S 1 0 0 1 32 0 2
+Refer: 0 -1 N 1 0 0 1 64 320 2
 Refer: 204 65258 N 1 0 0 1 0 0 2
 EndChar
 
