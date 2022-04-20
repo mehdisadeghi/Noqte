@@ -65,5 +65,6 @@ Credit when credit is due. I benefited from the work of others mentioned below.
 - [How To Make a Snap-to Grid In FontForge](https://namethattech.wordpress.com/2017/03/22/how-to-make-a-snap-to-grid-in-fontforge/): helped me to make a grid of my own
 
 # License
-Noqte is released under the [OFL license](LICENSE).
-Copyright (C) 2022 Mehdi Sadeghi
+Copyright 2022 Mehdi Sadeghi
+
+Licensed under the [SIL Open Font License, Version 1.1](LICENSE), with Reserved Font Name Noqte.
