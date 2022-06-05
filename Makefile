@@ -1,9 +1,17 @@
 .PHONY: clean all watch
 
-all: noqte.ttf
-
+all: noqte.ttf noqte.woff noqte.woff2
 noqte.ttf: noqte.sfd
-	fontforge -quiet -lang ff -c "Open(\"noqte.sfd\",1);Generate(\"noqte.ttf\")" 
+	fontforge -quiet -lang ff -c "Open(\"noqte.sfd\",1);Generate(\"noqte.ttf\")"
+
+noqte.woff: noqte.sfd
+	fontforge -quiet -lang ff -c "Open(\"noqte.sfd\",1);Generate(\"noqte.woff\")"
+
+noqte.woff2: noqte.sfd
+	fontforge -quiet -lang ff -c "Open(\"noqte.sfd\",1);Generate(\"noqte.woff2\")"
+
+noqte.tar.gz: noqte.ttf noqte.woff noqte.woff2
+	tar czf noqte.tar.gz noqte.ttf noqte.woff noqte.woff2
 
 ttftest: *.c
 	gcc *.c \
@@ -17,4 +25,4 @@ watch:
 	./build.sh noqte.sfd ttftest.c
 
 clean:
-	rm -f noqte.ttf ttftest
+	rm -f noqte.ttf noqte.woff noqte.woff2 ttftest noqte.tar.gz
