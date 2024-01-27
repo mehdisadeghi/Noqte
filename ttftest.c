@@ -80,13 +80,13 @@ int main(int argc, char ** argv)
 		"پاراگراف شعر از لحاظ دوری از قافیه‌های اضافه کمک می‌شود.",
 		noqte, 1);
 	SDL_Texture *t07 = loadTXTTexture("äüößabcdefghijklmnñopqrstuvwxyz", noqte, 0);
-	SDL_Texture *t08 = loadTXTTexture("ÄÜÖABCDEFGHIJKLMNÑOPQRSTUVWXYZ", noqte, 0);
-	SDL_Texture *t09 = loadTXTTexture("0123456789°!\"§$%&/()=?`" , noqte, 0);
+	SDL_Texture *t08 = loadTXTTexture("ÄÜÖẞABCDEFGHIJKLMNÑOPQRSTUVWXYZ", noqte, 0);
+	SDL_Texture *t09 = loadTXTTexture("~0123456789°!\"§$%&/()=?^<>*-;,’`´" , noqte, 0);
 	
-	SDL_Texture *t10 = loadTXTTexture("The quick brown fox jumps over the lazy dog", noqte, 0);
-	SDL_Texture *t11 = loadTXTTexture("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG", noqte, 0);
+	SDL_Texture *t10 = loadTXTTexture("The quick brown fox jumps over the lazy dog.", noqte, 0);
+	SDL_Texture *t11 = loadTXTTexture("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.", noqte, 0);
 	SDL_Texture *t12 = loadTXTTexture("el veloz murciélago hindú comía feliz cardillo y kiwi.", noqte, 0);
-	SDL_Texture *t13 = loadTXTTexture("la cigüeña tocaba el saxofón detrás del palenque de paja", noqte, 0);
+	SDL_Texture *t13 = loadTXTTexture("la cigüeña tocaba el saxofón detrás del palenque de paja.", noqte, 0);
  
 
 	SDL_Event event;
@@ -125,6 +125,7 @@ int main(int argc, char ** argv)
 		blit(t10, 10, 700, 0);
 		blit(t11, 10, 775, 0);
 		blit(t12, 10, 850, 0);
+		blit(t13, 10, 925, 0);
 
 		SDL_Delay(32);
 		SDL_RenderPresent(renderer);
