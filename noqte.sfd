@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1581968550
-ModificationTime: 1706366920
+ModificationTime: 1707653281
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -44,6 +44,10 @@ HheadDOffset: 0
 OS2Vendor: '    '
 OS2CodePages: 00000040.00000000
 OS2UnicodeRanges: 00002000.00000000.00000000.00000000
+Lookup: 1 9 0 "'init' Initial Forms lookup 1" { "'init' Initial Forms lookup 1-1"  } ['init' ('DFLT' <'dflt' > 'arab' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 9 0 "'medi' Medial Forms lookup 2" { "'medi' Medial Forms lookup 2-1"  } ['medi' ('DFLT' <'dflt' > 'arab' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 9 0 "'fina' Terminal Forms lookup 3" { "'fina' Terminal Forms lookup 3-1"  } ['fina' ('DFLT' <'dflt' > 'arab' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 9 0 "'isol' Isolated Forms lookup 4" { "'isol' Isolated Forms lookup 4-1"  } ['isol' ('DFLT' <'dflt' > 'arab' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ShortTable: maxp 16
@@ -738,7 +742,7 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 154
-WinInfo: 0 25 16
+WinInfo: 150 25 16
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -963,6 +967,7 @@ Refer: 207 -1 N 1 0 0 1 200 0 2
 Refer: 207 -1 N 1 0 0 1 100 0 2
 Refer: 207 -1 N 1 0 0 1 0 100 2
 Refer: 207 -1 S 1 0 0 1 100 200 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFE80
 EndChar
 
 StartChar: uni0622
@@ -976,6 +981,8 @@ LayerCount: 2
 Fore
 Refer: 239 1619 N 1 0 0 1 -100 2 2
 Refer: 12 1575 N 1 0 0 1 0 0 3
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFE81
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFE82
 EndChar
 
 StartChar: uni0623
@@ -988,6 +995,8 @@ LayerCount: 2
 Fore
 Refer: 240 1620 N 1 0 0 1 -25 702 2
 Refer: 12 1575 N 1 0 0 1 0 0 3
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFE83
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFE84
 EndChar
 
 StartChar: uni0624
@@ -1000,6 +1009,8 @@ LayerCount: 2
 Fore
 Refer: 240 1620 N 1 0 0 1 75 502 2
 Refer: 39 1608 N 1 0 0 1 0 0 3
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFE85
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFE86
 EndChar
 
 StartChar: uni0627
@@ -1011,6 +1022,8 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 209 -1 N 1 0 0 1 0 0 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFE8D
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFE8E
 EndChar
 
 StartChar: uni0628
@@ -1023,6 +1036,11 @@ LayerCount: 2
 Fore
 Refer: 50 1646 N 1 0 0 1 0 0 2
 Refer: 207 -1 N 1 0 0 1 301 -201 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFE8F
+Substitution2: "'init' Initial Forms lookup 1-1" uniFE91
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFE90
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFE92
+Substitution2: "'init' Initial Forms lookup 1-1" uniFE91
 EndChar
 
 StartChar: uni062A
@@ -1035,6 +1053,11 @@ LayerCount: 2
 Fore
 Refer: 50 1646 N 1 0 0 1 0 0 2
 Refer: 0 -1 S 1 0 0 1 300 300 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFE95
+Substitution2: "'init' Initial Forms lookup 1-1" uniFE97
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFE96
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFE98
+Substitution2: "'init' Initial Forms lookup 1-1" uniFE97
 EndChar
 
 StartChar: uni062B
@@ -1047,6 +1070,11 @@ LayerCount: 2
 Fore
 Refer: 50 1646 N 1 0 0 1 0 0 2
 Refer: 1 -1 N 1 0 0 1 0 0 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFE99
+Substitution2: "'init' Initial Forms lookup 1-1" uniFE9B
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFE9A
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFE9C
+Substitution2: "'init' Initial Forms lookup 1-1" uniFE9B
 EndChar
 
 StartChar: uni062C
@@ -1059,6 +1087,11 @@ LayerCount: 2
 Fore
 Refer: 207 -1 S 1 0 0 1 200 -100 2
 Refer: 130 65185 N 1 0 0 1 0 0 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFE9D
+Substitution2: "'init' Initial Forms lookup 1-1" uniFE9F
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFE9E
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFEA0
+Substitution2: "'init' Initial Forms lookup 1-1" uniFE9F
 EndChar
 
 StartChar: uni062D
@@ -1080,6 +1113,11 @@ Refer: 207 -1 N 1 0 0 1 0 -200 2
 Refer: 207 -1 N 1 0 0 1 100 0 2
 Refer: 207 -1 N 1 0 0 1 100 -300 2
 Refer: 207 -1 N 1 0 0 1 200 -300 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFEA1
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEA3
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFEA2
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFEA4
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEA3
 EndChar
 
 StartChar: uni062E
@@ -1092,6 +1130,11 @@ LayerCount: 2
 Fore
 Refer: 207 -1 S 1 0 0 1 200 400 2
 Refer: 130 65185 N 1 0 0 1 0 0 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFEA5
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEA7
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFEA6
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFEA8
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEA7
 EndChar
 
 StartChar: uni062F
@@ -1106,6 +1149,8 @@ Refer: 207 -1 N 1 0 0 1 100 0 2
 Refer: 207 -1 S 1 0 0 1 0 200 2
 Refer: 207 -1 N 1 0 0 1 100 100 2
 Refer: 207 -1 N 1 0 0 1 0 0 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFEA9
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFEAA
 EndChar
 
 StartChar: uni0630
@@ -1118,6 +1163,8 @@ LayerCount: 2
 Fore
 Refer: 207 -1 S 1 0 0 1 0 400 2
 Refer: 138 65193 N 1 0 0 1 0 0 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFEAB
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFEAC
 EndChar
 
 StartChar: uni0631
@@ -1133,6 +1180,8 @@ Refer: 207 -1 N 1 0 0 1 100 100 2
 Refer: 207 -1 N 1 0 0 1 0 -200 2
 Refer: 207 -1 N 1 0 0 1 100 -100 2
 Refer: 207 -1 N 1 0 0 1 100 0 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFEAD
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFEAE
 EndChar
 
 StartChar: uni0632
@@ -1145,6 +1194,8 @@ LayerCount: 2
 Fore
 Refer: 142 65197 N 1 0 0 1 0 0 2
 Refer: 207 -1 S 1 0 0 1 100 300 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFEAF
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFEB0
 EndChar
 
 StartChar: uni0633
@@ -1162,6 +1213,11 @@ Refer: 207 -1 N 1 0 0 1 800 100 2
 Refer: 207 -1 N 1 0 0 1 600 100 2
 Refer: 207 -1 N 1 0 0 1 500 0 2
 Refer: 211 -1 N 1 0 0 1 0 -100 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFEB1
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEB3
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFEB2
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFEB4
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEB3
 EndChar
 
 StartChar: uni0634
@@ -1174,6 +1230,11 @@ LayerCount: 2
 Fore
 Refer: 1 -1 N 1 0 0 1 200 0 2
 Refer: 146 65201 N 1 0 0 1 0 0 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFEB5
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEB7
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFEB6
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFEB8
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEB7
 EndChar
 
 StartChar: uni0635
@@ -1186,6 +1247,11 @@ LayerCount: 2
 Fore
 Refer: 244 -1 S 1 0 0 1 400 0 2
 Refer: 211 -1 N 1 0 0 1 0 -100 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFEB9
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEBB
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFEBA
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFEBC
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEBB
 EndChar
 
 StartChar: uni0636
@@ -1198,6 +1264,11 @@ LayerCount: 2
 Fore
 Refer: 207 -1 S 1 0 0 1 700 399 2
 Refer: 154 65209 N 1 0 0 1 0 0 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFEBD
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEBF
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFEBE
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFEC0
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEBF
 EndChar
 
 StartChar: uni0637
@@ -1217,6 +1288,11 @@ Refer: 207 -1 N 1 0 0 1 400 100 2
 Refer: 207 -1 S 1 0 0 1 300 0 2
 Refer: 207 -1 S 1 0 0 1 200 0 2
 Refer: 209 -1 N 1 0 0 1 100 0 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFEC1
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEC3
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFEC2
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFEC4
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEC3
 EndChar
 
 StartChar: uni0638
@@ -1229,6 +1305,11 @@ LayerCount: 2
 Fore
 Refer: 207 -1 S 1 0 0 1 300 400 2
 Refer: 162 65217 N 1 0 0 1 0 0 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFEC5
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEC7
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFEC6
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFEC8
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEC7
 EndChar
 
 StartChar: uni0639
@@ -1246,6 +1327,11 @@ Refer: 207 -1 N 1 0 0 1 300 0 2
 Refer: 207 -1 N 1 0 0 1 100 0 2
 Refer: 207 -1 N 1 0 0 1 300 -300 2
 Refer: 229 -1 N 1 0 0 1 0 0 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFEC9
+Substitution2: "'init' Initial Forms lookup 1-1" uniFECB
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFECA
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFECC
+Substitution2: "'init' Initial Forms lookup 1-1" uniFECB
 EndChar
 
 StartChar: uni063A
@@ -1258,6 +1344,11 @@ LayerCount: 2
 Fore
 Refer: 170 65225 N 1 0 0 1 0 0 2
 Refer: 207 -1 S 1 0 0 1 200 400 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFECD
+Substitution2: "'init' Initial Forms lookup 1-1" uniFECF
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFECE
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFED0
+Substitution2: "'init' Initial Forms lookup 1-1" uniFECF
 EndChar
 
 StartChar: uni0640
@@ -1283,6 +1374,11 @@ LayerCount: 2
 Fore
 Refer: 55 1697 N 1 0 0 1 0 0 2
 Refer: 207 -1 N 1 0 0 1 500 400 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFED1
+Substitution2: "'init' Initial Forms lookup 1-1" uniFED3
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFED2
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFED4
+Substitution2: "'init' Initial Forms lookup 1-1" uniFED3
 EndChar
 
 StartChar: uni0642
@@ -1295,6 +1391,11 @@ LayerCount: 2
 Fore
 Refer: 51 1647 N 1 0 0 1 0 0 2
 Refer: 0 -1 N 1 0 0 1 300 400 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFED5
+Substitution2: "'init' Initial Forms lookup 1-1" uniFED7
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFED6
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFED8
+Substitution2: "'init' Initial Forms lookup 1-1" uniFED7
 EndChar
 
 StartChar: uni0643
@@ -1307,6 +1408,11 @@ LayerCount: 2
 Fore
 Refer: 365 -1 N 1 0 0 1 100 -100 2
 Refer: 80 64398 S 1 0 0 1 0 0 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFED9
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEDB
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFEDA
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFEDC
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEDB
 EndChar
 
 StartChar: uni0644
@@ -1320,6 +1426,11 @@ LayerCount: 2
 Fore
 Refer: 209 -1 N 1 0 0 1 400 0 2
 Refer: 211 -1 N 1 0 0 1 0 -100 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFEDD
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEDF
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFEDE
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFEE0
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEDF
 EndChar
 
 StartChar: uni0645
@@ -1334,6 +1445,11 @@ Refer: 207 -1 N 1 0 0 1 0 -301 2
 Refer: 207 -1 N 1 0 0 1 0 -201 2
 Refer: 207 -1 N 1 0 0 1 0 -100 2
 Refer: 195 65251 N 1 0 0 1 0 0 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFEE1
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEE3
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFEE2
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFEE4
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEE3
 EndChar
 
 StartChar: uni0646
@@ -1348,6 +1464,11 @@ Fore
 Refer: 207 -1 N 1 0 0 1 400 100 2
 Refer: 207 -1 N 1 0 0 1 200 300 2
 Refer: 211 -1 N 1 0 0 1 0 -100 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFEE5
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEE7
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFEE6
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFEE8
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEE7
 EndChar
 
 StartChar: uni0647
@@ -1364,6 +1485,11 @@ Refer: 207 -1 N 1 0 0 1 100 200 2
 Refer: 207 -1 N 1 0 0 1 100 0 2
 Refer: 207 -1 N 1 0 0 1 0 0 2
 Refer: 207 -1 S 1 0 0 1 200 0 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFEE9
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEEB
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFEEA
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFEEC
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEEB
 EndChar
 
 StartChar: uni0648
@@ -1383,6 +1509,8 @@ Refer: 207 -1 N 1 0 0 1 100 0 2
 Refer: 207 -1 N 1 0 0 1 200 100 2
 Refer: 207 -1 N 1 0 0 1 0 100 2
 Refer: 207 -1 N 1 0 0 1 100 200 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFEED
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFEEE
 EndChar
 
 StartChar: uni0649
@@ -1402,6 +1530,8 @@ Refer: 207 -1 N 1 0 0 1 100 -200 2
 Refer: 207 -1 N 1 0 0 1 0 -100 2
 Refer: 207 -1 N 1 0 0 1 0 0 2
 Refer: 207 -1 N 1 0 0 1 200 -200 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFEEF
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFEF0
 EndChar
 
 StartChar: uni064A
@@ -1414,6 +1544,11 @@ LayerCount: 2
 Fore
 Refer: 40 1609 N 1 0 0 1 0 0 2
 Refer: 0 -1 S 1 0 0 1 200 -400 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFEF1
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEF3
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFEF2
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFEF4
+Substitution2: "'init' Initial Forms lookup 1-1" uniFEF3
 EndChar
 
 StartChar: uni064B
@@ -1585,6 +1720,11 @@ LayerCount: 2
 Fore
 Refer: 228 -1 S 1 0 0 1 200 -500 2
 Refer: 50 1646 N 1 0 0 1 0 0 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFB56
+Substitution2: "'init' Initial Forms lookup 1-1" uniFB58
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFB57
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFB59
+Substitution2: "'init' Initial Forms lookup 1-1" uniFB58
 EndChar
 
 StartChar: uni0686
@@ -1597,6 +1737,11 @@ LayerCount: 2
 Fore
 Refer: 228 -1 S 1 0 0 1 100 -400 2
 Refer: 17 1581 N 1 0 0 1 0 0 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFB7A
+Substitution2: "'init' Initial Forms lookup 1-1" uniFB7C
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFB7B
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFB7D
+Substitution2: "'init' Initial Forms lookup 1-1" uniFB7C
 EndChar
 
 StartChar: uni0698
@@ -1609,6 +1754,8 @@ LayerCount: 2
 Fore
 Refer: 21 1585 N 1 0 0 1 0 0 2
 Refer: 1 -1 S 1 0 0 1 -300 0 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFB8A
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFB8B
 EndChar
 
 StartChar: uni06A1
@@ -1638,6 +1785,11 @@ Fore
 Refer: 207 -1 N 1 0 0 1 0 100 2
 Refer: 207 -1 N 1 0 0 1 100 0 2
 Refer: 82 64400 S 1 0 0 1 200 0 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFB8E
+Substitution2: "'init' Initial Forms lookup 1-1" uniFB90
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFB8F
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFB91
+Substitution2: "'init' Initial Forms lookup 1-1" uniFB90
 EndChar
 
 StartChar: uni06AF
@@ -1653,6 +1805,11 @@ Refer: 210 -1 N 1 0 0 1 350 550 2
 Refer: 210 -1 N 1 0 0 1 400 550 2
 Refer: 210 -1 N 1 0 0 1 450 550 2
 Refer: 80 64398 N 1 0 0 1 0 0 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFB92
+Substitution2: "'init' Initial Forms lookup 1-1" uniFB94
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFB93
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFB95
+Substitution2: "'init' Initial Forms lookup 1-1" uniFB94
 EndChar
 
 StartChar: uni06CC
@@ -1664,6 +1821,11 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 40 1609 N 1 0 0 1 0 0 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFBFC
+Substitution2: "'init' Initial Forms lookup 1-1" uniFBFE
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFBFD
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFBFF
+Substitution2: "'init' Initial Forms lookup 1-1" uniFBFE
 EndChar
 
 StartChar: uni06E4
@@ -3489,7 +3651,7 @@ Encoding: 455 65257 201
 Width: 400
 VWidth: 1607
 GlyphClass: 1
-Flags: W
+Flags: WO
 LayerCount: 2
 Fore
 Refer: 38 1607 N 1 0 0 1 0 0 2
@@ -3503,10 +3665,6 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
-SplineSet
-653 0 m 1,0,-1
- 553 0 l 1025
-EndSplineSet
 Refer: 207 -1 N 1 0 0 1 300 0 2
 Refer: 207 -1 N 1 0 0 1 0 100 2
 Refer: 207 -1 N 1 0 0 1 200 300 2
@@ -4084,6 +4242,11 @@ LayerCount: 2
 Fore
 Refer: 365 -1 S 1 0 0 1 150 -150 2
 Refer: 58 1740 N 1 0 0 1 0 0 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFE89
+Substitution2: "'init' Initial Forms lookup 1-1" uniFE8B
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFE8A
+Substitution2: "'medi' Medial Forms lookup 2-1" uniFE8C
+Substitution2: "'init' Initial Forms lookup 1-1" uniFE8B
 EndChar
 
 StartChar: asterisk
@@ -5610,6 +5773,7 @@ LayerCount: 2
 Fore
 Refer: 365 -1 S 1 0 0 1 -50 -650 2
 Refer: 12 1575 N 1 0 0 1 0 0 3
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFE87
 EndChar
 
 StartChar: uni0629
@@ -5621,6 +5785,8 @@ LayerCount: 2
 Fore
 Refer: 0 -1 S 1 0 0 1 100 400 2
 Refer: 38 1607 N 1 0 0 1 0 0 2
+Substitution2: "'isol' Isolated Forms lookup 4-1" uniFE93
+Substitution2: "'fina' Terminal Forms lookup 3-1" uniFE94
 EndChar
 
 StartChar: guillemotleft
@@ -6388,10 +6554,10 @@ VWidth: 803
 Flags: W
 LayerCount: 2
 Fore
-Refer: 210 -1 N 1 0 0 1 50 550 2
-Refer: 210 -1 N 1 0 0 1 100 550 2
-Refer: 210 -1 N 1 0 0 1 50 500 2
-Refer: 210 -1 N 1 0 0 1 101 600 2
+Refer: 210 -1 S 1 0 0 1 50 550 2
+Refer: 210 -1 S 1 0 0 1 100 550 2
+Refer: 210 -1 S 1 0 0 1 50 500 2
+Refer: 210 -1 S 1 0 0 1 101 600 2
 EndChar
 
 StartChar: quotedblleft

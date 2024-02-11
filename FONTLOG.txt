@@ -11,6 +11,21 @@ I made this font in a week from scratch in order to use it in my game. The em-he
 ChangeLog
 ---------
 
+11 February 2024
+- Added Arabic lookup tables for "init", "medi", "fina", and "isol"
+
+27 January 2024
+- Added a whole new set of combining diacritics including grave, accute, cedilla, circumflex, caron, tilde, ring, breve, and more
+- Added the missing capital ß
+- Added dotless i and j
+- Added closing double quotes
+- Replaced manual symbols with combined ones (improves consistency)
+- Redesigned V, U, and Y.
+- Switched to small dot (75x75) for almost all diacritics
+- Added top/bottom anchors and marks for glyphs and diacritics
+- Left positioning of diacritics to Fontforge (generated)
+
+
 Acknowledgements
 ----------------
 

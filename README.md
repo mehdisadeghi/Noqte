@@ -40,8 +40,9 @@ A font file should be generated in the same folder called `noqte.ttf`.
 Please report them on the repository or email me. The following problems are known to me:
 
 - There is no kerning
-- There are no anchors
-- Diacritics are not well-positioned
+- <s>There are no anchors</s>: top and bottom anchors added back in January 2024
+- <s>Diacritics are not well-positioned</s>: positioning improved using the aforementioned anchors
+- Lookup tables still incomplete
 
 ## Test
 There is a development script and an SDL test file included. To watch the changes and rebuild do:
