@@ -1,6 +1,8 @@
 #include <SDL.h>
 #include <SDL_ttf.h>
 #include <hb.h>
+#include <SDL2/SDL_image.h>
+#include <stdbool.h>
 
 void blit(SDL_Texture *texture, int x, int y, int rtl);
 SDL_Texture *loadTXTTexture(char *text, TTF_Font *font, int rtl);
@@ -13,8 +15,16 @@ static TTF_Font *consolereg;
 static SDL_Window *window; 
 static SDL_Renderer *renderer;
 
-int main(int argc, char ** argv)
+int main(int argc, char* argv[])
 {
+	bool screenshot = false;
+	if (argc > 1) {
+		if(strcmp(argv[1], "-s") == 0) {
+			screenshot = true;
+		}
+	}
+	const int WIDTH = 1440;
+	const int HEIGHT = 1024;
 	if (SDL_Init(SDL_INIT_VIDEO) < 0)
 	{
 		printf("Couldn't initialize SDL: %s\n", SDL_GetError());
@@ -45,8 +55,8 @@ int main(int argc, char ** argv)
 	window = SDL_CreateWindow("ttftest",
 		SDL_WINDOWPOS_UNDEFINED,
 		SDL_WINDOWPOS_UNDEFINED,
-		1280, 720,
-		SDL_WINDOW_RESIZABLE);
+		WIDTH, HEIGHT,
+		screenshot? SDL_WINDOW_HIDDEN: SDL_WINDOW_RESIZABLE);
 	if (!window)
 	{
 		printf("Failed to open window: %s\n", SDL_GetError());
@@ -89,6 +99,9 @@ int main(int argc, char ** argv)
 	SDL_Texture *t13 = loadTXTTexture("la cigüeña tocaba el saxofón detrás del palenque de paja.", noqte, 0);
  
 
+	SDL_Texture* fullTexture = SDL_CreateTexture(
+		renderer, SDL_PIXELFORMAT_ARGB8888, SDL_TEXTUREACCESS_TARGET, WIDTH, HEIGHT);
+
 	SDL_Event event;
 
 	while (1)
@@ -108,7 +121,12 @@ int main(int argc, char ** argv)
 			}
 		}
 
-		int right = 1075;
+		if (screenshot) {
+			SDL_SetRenderTarget(renderer, fullTexture);
+
+		}
+
+		int right = WIDTH;
 
 		blit(t01, right, 25, 1);
 		blit(t02, right, 100, 1);
@@ -129,7 +147,27 @@ int main(int argc, char ** argv)
 
 		SDL_Delay(32);
 		SDL_RenderPresent(renderer);
+
+		if (screenshot) {
+			// Reset the render target to the default window
+			//SDL_SetRenderTarget(renderer, NULL);
+			// Create a surface to store the contents of the fullTexture
+			SDL_Surface* surface = SDL_CreateRGBSurface(
+				0, WIDTH, HEIGHT, 32, 0, 0, 0, 0);
+			// Copy the contents of the fullTexture to the surface
+			SDL_RenderCopy(renderer, fullTexture, NULL, NULL);
+			SDL_RenderReadPixels(
+				renderer, NULL,
+				SDL_PIXELFORMAT_ARGB8888, surface->pixels, surface->pitch);
+			// Save the surface as an image file
+			IMG_SavePNG(surface, "glyphs.png");
+			SDL_DestroyTexture(fullTexture);
+			SDL_FreeSurface(surface);
+			break;
+		}
 	}
+
+
 
 	SDL_DestroyRenderer(renderer);
 	SDL_DestroyWindow(window);
